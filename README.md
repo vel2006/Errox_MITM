@@ -29,3 +29,8 @@ To have the wanted outcome, simply be on any IPv4 enabled network (70% of them t
   Method two:
 
     Method two will send an ARP reply to the device, so when the device responds to us the internal MAC addressing table will route data through our MAC address instead of the real destination's. This process will repeat for both devices and continue so that the targets do not revert to the real MAC address.
+
+
+## Future:
+
+  This script is likely to not be updated, but if one is made it would be for fixing the MITM methods from not working anymore or to support IPv6 based MITM routing attacks.
